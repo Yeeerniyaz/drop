@@ -1,0 +1,11 @@
+.rootErr {
+	padding-top: rem(80px);
+	padding-bottom: rem(80px);
+}
+
+.titleErr {
+	font-weight: 900;
+	font-size: rem(34px);
+	margin-bottom: var(--mantine-spacing-md);
+	font-family: Greycliff CF, var(--mantine-font-family);
+}

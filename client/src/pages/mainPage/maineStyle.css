@@ -1,0 +1,97 @@
+.user_main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Montserrat", sans-serif;
+	justify-content: space-around;
+}
+
+.main_section {
+	width: 390px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.user_profile {
+	width: 100%;
+	display: flex;
+	column-gap: 10px;
+	background-color: #183d3d;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid beige;
+}
+
+.user_avatar {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+.user_menu {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btnGetdisk {
+	background-color: #183d3d;
+	width: 100%;
+	padding: 10px;
+	border-bottom: 1px solid beige;
+}
+
+.btnLogOut {
+	width: 100%;
+	background-color: #183d3d;
+	padding: 10px;
+	border-radius: 0 0 10px 10px;
+	text-align: left;
+}
+
+.user_fav {
+	height: 100%;
+	background-color: #183d3d;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.user_dir {
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.main_progress {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background-color: #183d3d;
+	border-radius: 10px;
+}
+
+.main_r_progress {
+	height: 100%;
+	background-color: #183d3d;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.contacts {
+	height: 100%;
+	box-sizing: border-box;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	flex: 0 0 rem(280px);
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #ff5f0f;
+}
+
+

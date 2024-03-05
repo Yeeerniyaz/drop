@@ -1,0 +1,64 @@
+.disk__item {
+	width: 50px;
+	height: 50px;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	justify-content: flex-start;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.dir {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.activeFile {
+	background-color: #00000069;
+}
+
+.file:hover::before {
+	content: attr(data-tooltip);
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #222;
+	color: #fff;
+	padding: 4px;
+	border-radius: 4px;
+	white-space: nowrap;
+	opacity: 0;
+	z-index: 1;
+}
+
+.file:hover::after {
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	border-top-color: #222;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+
+.disk__item:hover::before,
+.disk__item:hover::after {
+	opacity: 1;
+}
+
+.file__a {
+	display: flex;
+	flex-direction: row;
+	text-overflow: clip;
+	column-gap: 10px;
+	row-gap: 10px;
+	flex-wrap: wrap;
+}
